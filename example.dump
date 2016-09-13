@@ -1,0 +1,42 @@
+22:52:40.182092 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:52:43.631924 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:52:47.272104 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:52:51.222153 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:52:54.932345 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:52:56.690227 00:01:5c:63:da:46 > 33:33:ff:33:d0:93, ethertype 802.1Q (0x8100), length 90: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1:ff33:d093: ICMP6, neighbor solicitation, who has fe80::c627:95ff:fe33:d093, length 32
+22:52:58.362060 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:52:59.708862 00:01:5c:63:da:46 > ff:ff:ff:ff:ff:ff, ethertype 802.1Q (0x8100), length 399: vlan 2, p 6, ethertype IPv4, 50.161.132.1.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 353
+22:53:01.372278 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:53:04.452167 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:53:04.679032 00:01:5c:63:da:46 > ff:ff:ff:ff:ff:ff, ethertype 802.1Q (0x8100), length 64: vlan 2, p 6, ethertype ARP, Request who-has 73.192.230.83 tell 73.192.230.1, length 46
+22:53:06.144152 00:01:5c:63:da:46 > 33:33:ff:4a:ac:a8, ethertype 802.1Q (0x8100), length 90: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1:ff4a:aca8: ICMP6, neighbor solicitation, who has 2001:558:6012:39:543c:1284:644a:aca8, length 32
+22:53:07.942576 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:53:08.527507 00:01:5c:63:da:46 > 33:33:ff:52:e1:8b, ethertype 802.1Q (0x8100), length 90: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1:ff52:e18b: ICMP6, neighbor solicitation, who has fe80::c627:95ff:fe52:e18b, length 32
+22:53:11.882332 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:53:15.002197 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:53:18.012260 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:53:21.038180 fc:fc:48:75:bf:6c > ff:ff:ff:ff:ff:ff, ethertype 802.1Q (0x8100), length 60: vlan 4, p 0, ethertype ARP, Request who-has 192.168.3.1 tell 192.168.3.25, length 42
+22:53:21.102067 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:53:24.992917 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:53:28.002312 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:53:31.272416 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:53:34.292279 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:53:34.828683 00:01:5c:63:da:46 > ff:ff:ff:ff:ff:ff, ethertype 802.1Q (0x8100), length 64: vlan 2, p 6, ethertype ARP, Request who-has 98.252.103.16 tell 98.252.102.1, length 46
+22:53:37.802359 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:53:41.312577 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:53:45.172625 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:53:46.669249 00:01:5c:63:da:46 > ff:ff:ff:ff:ff:ff, ethertype 802.1Q (0x8100), length 399: vlan 2, p 6, ethertype IPv4, 50.161.132.1.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 353
+22:53:48.172459 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:53:51.722417 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:53:55.332743 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:53:57.770618 fc:fc:48:75:bf:6c > 01:00:5e:7f:ff:fa, ethertype 802.1Q (0x8100), length 171: vlan 4, p 0, ethertype IPv4, 192.168.3.25.49568 > 239.255.255.250.1900: UDP, length 125
+22:53:57.851580 fc:fc:48:75:bf:6c > 01:00:5e:7f:ff:fa, ethertype 802.1Q (0x8100), length 171: vlan 4, p 0, ethertype IPv4, 192.168.3.25.49568 > 239.255.255.250.1900: UDP, length 125
+22:53:58.069752 fc:fc:48:75:bf:6c > 01:00:5e:7f:ff:fa, ethertype 802.1Q (0x8100), length 171: vlan 4, p 0, ethertype IPv4, 192.168.3.25.49568 > 239.255.255.250.1900: UDP, length 125
+22:53:58.502736 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:54:02.282773 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:54:05.292483 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:54:09.082789 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:54:09.707132 00:01:5c:63:da:46 > ff:ff:ff:ff:ff:ff, ethertype 802.1Q (0x8100), length 399: vlan 2, p 6, ethertype IPv4, 50.161.132.1.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 353
+22:54:10.285364 00:01:5c:63:da:46 > ff:ff:ff:ff:ff:ff, ethertype 802.1Q (0x8100), length 64: vlan 2, p 6, ethertype ARP, Request who-has 98.252.109.164 tell 98.252.108.1, length 46
+22:54:12.092774 00:01:5c:63:da:46 > 33:33:00:00:00:01, ethertype 802.1Q (0x8100), length 202: vlan 2, p 6, ethertype IPv6, fe80::201:5cff:fe63:da46 > ff02::1: ICMP6, router advertisement, length 144
+22:54:15.382637 00:01:5c:63:da:46 > 33:33:

@@ -1,3 +1,8 @@
+#!/usr/bin/env python
+#This script will discover the vlans on an 802.1Q trunk and print them
+#Soon it will add interfaces, and do DHCP discovery and only works on Linux
+#needs tcpdump installed
+
 import StringIO
 import sys
 import shlex
@@ -13,20 +18,17 @@ while running:
     try:
         data = tcpdump.stdout.readline()
         if len(data):
-            output.write(data)
 	    packet = data.split()
 	    if packet[5] == "802.1Q":
-		print vlans
+	#	print vlans
 		vlanTag = packet[10].rstrip(',')
 		vlanTag = int(vlanTag) 
 		if vlanTag not in vlans:
 			vlans.add(vlanTag)
-			print "added vlan"
+			print "added VLAN " + str(vlanTag) 
         else:
             running = False
     except KeyboardInterrupt:
         tcpdump.kill()
         data = tcpdump.stdout.readline()
-        if len(data):
-            output.write(data)
         running = False

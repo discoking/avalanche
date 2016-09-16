@@ -7,7 +7,10 @@ import StringIO
 import sys
 import shlex
 import subprocess
+from string import Template
+
 eth = "eth0"
+responder = Template('responder -I $int -wr --lm')
 cmd = "/usr/sbin/tcpdump -n -i eth0 -e"
 args = shlex.split(cmd)
 tcpdump = subprocess.Popen(args, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
@@ -34,6 +37,9 @@ while running:
 			args = shlex.split(bringUpInt)
                         run = subprocess.Popen(args, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 			args = shlex.split(getIp)
+                        run = subprocess.Popen(args, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+			responderCmd = responder.substitute(int=eth + "." + vlanTag)
+			args = shlex.split(responderCmd)
                         run = subprocess.Popen(args, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
         else:
             running = False

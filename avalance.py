@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 #This script will discover the vlans on an 802.1Q trunk and print them
-#it will add interfaces, and do DHCP discovery and only works on Linux
+#it will add interfaces, and do DHCP discovery, and start responder
+#this is a proof of concept and this program will be refined
+#only works on Linux
 #needs tcpdump installed
 
 import StringIO

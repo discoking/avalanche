@@ -12,11 +12,11 @@ import subprocess
 from string import Template
 
 eth = "eth0"
-responder = Template('responder -I $int -wr --lm')
+responder = Template('./Responder/Responder.py -I $int -wr --lm')
 cmd = "/usr/sbin/tcpdump -n -i eth0 -e"
 args = shlex.split(cmd)
 tcpdump = subprocess.Popen(args, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-print "Press CTRL-C to stop tcpdump"
+print "Press CTRL-C to stop avalanche"
 output = StringIO.StringIO()
 running = True
 vlans = set()
